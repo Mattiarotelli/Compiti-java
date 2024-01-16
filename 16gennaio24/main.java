@@ -15,6 +15,8 @@ public class main{
             pre[i]=input.nextInt();
             input.close();
         }
-        capoAbbigliamento cA[] = 
+        capoAbbigliamento cA[] = new capoAbbigliamento[20](ti, ma, ta, co, pre);
+        cA.sconto(30);
+        }
     }
 }
