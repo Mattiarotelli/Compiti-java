@@ -1,37 +1,42 @@
 public class capoAbbigliamento {
-    private String[] tipo;
-    private String[] marca;
-    private String[] taglia;
-    private String[] colore;
-    private int[] prezzo;
+    private String tipo;
+    private String marca;
+    private String taglia;
+    private String colore;
+    private float prezzo;
+    private int nArticolo; 
 
-    public capoAbbigliamento(String[] tipo, String[] marca, String[] taglia, String[] colore, int[] prezzo) {
+    public capoAbbigliamento(String tipo, String marca, String taglia, String colore, int prezzo, int nArticolo) {
         this.tipo = tipo;
         this.marca = marca;
         this.taglia = taglia ;
         this.colore = colore;
         this.prezzo = prezzo;
+        this.nArticolo = nArticolo; 
 
     }
 
-    public String[] getTipo() {
+    public String getTipo() {
         return tipo;
     }
 
-    public String[] getMarca() {
+    public String getMarca() {
         return marca;
     }
 
-    public String[] getTaglia() {
+    public String getTaglia() {
         return taglia;
     }
 
-    public String[] getColore() {
+    public String getColore() {
         return colore;
     }
 
-    public int[] getPrezzo() {
+    public int getPrezzo() {
         return prezzo;
+    }
+    public int getnArticolo(){
+        return nArticolo; 
     }
 
     public void setPrezzo(int c) {
@@ -40,14 +45,11 @@ public class capoAbbigliamento {
         }
     }
 
-    public void sconto(int c) {
-        for(int i = 0; i< prezzo.length; i++){
-            if (tipo[i] == "Camicia") {
-                prezzo[i] = prezzo[i] - (prezzo[i] / 100 * c);
-                System.out.println("L' articolo numero: "+ i+ " e' in sconto.");
-            }
+    public void sconto() {
+        if (tipo == "Camicia") {
+            prezzo = prezzo - (prezzo / 100 * 30);
+            System.out.println("L' articolo numero: "+ nArticoloi+ " e' in sconto.");
         }
-
     }
 
 }

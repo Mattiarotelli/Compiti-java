@@ -15,12 +15,12 @@ public class main{
             co=input.nextLine();
             System.out.println("inserisci il prezzo");
             pre=input.nextInt();
-            cA[i] = new capoAbbigliamento(ti, ma, ta, co, pre);
+            cA[i] = new capoAbbigliamento(ti, ma, ta, co, pre, i+1);
         }
         input.close();
         
         for( int i = 0; i<cA.length; i++){
-            cA[i].sconto(30);
+            cA[i].sconto();
         }
     }
 }
