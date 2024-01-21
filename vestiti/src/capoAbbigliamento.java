@@ -6,7 +6,7 @@ public class capoAbbigliamento {
     private float prezzo;
     private int nArticolo; 
 
-    public capoAbbigliamento(String tipo, String marca, String taglia, String colore, int prezzo, int nArticolo) {
+    public capoAbbigliamento(String tipo, String marca, String taglia, String colore, float prezzo, int nArticolo) {
         this.tipo = tipo;
         this.marca = marca;
         this.taglia = taglia ;
@@ -32,23 +32,24 @@ public class capoAbbigliamento {
         return colore;
     }
 
-    public int getPrezzo() {
+    // Changed return type from int to float
+    public float getPrezzo() {
         return prezzo;
     }
     public int getnArticolo(){
         return nArticolo; 
     }
 
-    public void setPrezzo(int c) {
-        for(int i = 0; i < prezzo.length; i++){
-            prezzo[i] = c;
-        }
+    public void setPrezzo(float c) {
+        // No loop needed
+        prezzo = c;
     }
 
     public void sconto() {
         if (tipo == "Camicia") {
             prezzo = prezzo - (prezzo / 100 * 30);
-            System.out.println("L' articolo numero: "+ nArticoloi+ " e' in sconto.");
+            // Fixed typo
+            System.out.println("L' articolo numero: "+ nArticolo + " e' in sconto.");
         }
     }
 
