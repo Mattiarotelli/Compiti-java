@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class capoAbbigliamento {
     private final String tipo, marca, taglia, colore;
     private float prezzo;
@@ -41,7 +43,7 @@ public class capoAbbigliamento {
     }
 
     public void sconto() {
-        if (tipo == "Camicia") {
+        if (Objects.equals(tipo, "camicia")) {
             prezzo = prezzo - (prezzo / 100 * 30);
             // Fixed typo
             System.out.println("L' articolo numero: " + nArticolo + " e' in sconto.");
