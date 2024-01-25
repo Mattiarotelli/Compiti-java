@@ -11,10 +11,7 @@ public class mezziDiTransporto {
     public float getVelocita(){
         return velocita; 
     }
-    public String getTipo(){
-        return tipo; 
-
-    }
+    public String getTipo(){ return tipo;}
     public int getNumero(){
         return numero; 
     }
