@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Compiti-java-main.iml" filepath="$PROJECT_DIR$/Compiti-java-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" filepath="$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citta/citta.iml" filepath="$PROJECT_DIR$/citta/citta.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/inzializeInterface/inzializeInterface.iml" filepath="$PROJECT_DIR$/gui/inzializeInterface/inzializeInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/persone/persone.iml" filepath="$PROJECT_DIR$/persone/persone.iml" />
