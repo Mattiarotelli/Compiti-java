@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gui/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/gui/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Compiti-java-main.iml" filepath="$PROJECT_DIR$/Compiti-java-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" filepath="$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/citta/citta.iml" filepath="$PROJECT_DIR$/citta/citta.iml" />
