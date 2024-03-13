@@ -43,9 +43,9 @@ public class MakeItDoubles extends JFrame implements ActionListener{
     //cosa fare se viene premuto il bottone
     public void actionPerformed(ActionEvent e){
         int x;
-        x = Integer.parseInt(num.getText());
+        x = Integer.parseInt(num.getText());    //converte il da String a int
         x = x * 2;
-        res.setText(""+x);
+        res.setText(""+x);      //il testo viene inserito nell' casella del risultato
     }
 
 
