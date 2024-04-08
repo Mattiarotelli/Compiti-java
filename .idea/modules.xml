@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gui/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/gui/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/Coda/Coda.iml" filepath="$PROJECT_DIR$/ArrayList/Coda/Coda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Compiti-java-main.iml" filepath="$PROJECT_DIR$/Compiti-java-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/WindowDoubles/Esercizio.iml" filepath="$PROJECT_DIR$/gui/WindowDoubles/Esercizio.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" filepath="$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/inzializeInterface/inzializeInterface.iml" filepath="$PROJECT_DIR$/gui/inzializeInterface/inzializeInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/persone/persone.iml" filepath="$PROJECT_DIR$/persone/persone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/pila/pila.iml" filepath="$PROJECT_DIR$/ArrayList/pila/pila.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/proveArrayLIst/proveArrayLIst.iml" filepath="$PROJECT_DIR$/ArrayList/proveArrayLIst/proveArrayLIst.iml" />
       <module fileurl="file://$PROJECT_DIR$/studente/studente.iml" filepath="$PROJECT_DIR$/studente/studente.iml" />
       <module fileurl="file://$PROJECT_DIR$/veicoli2/veicoli2.iml" filepath="$PROJECT_DIR$/veicoli2/veicoli2.iml" />
