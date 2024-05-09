@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoCoda/AutoCoda.iml" filepath="$PROJECT_DIR$/AutoCoda/AutoCoda.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/gui/Calculator/Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/Coda/Coda.iml" filepath="$PROJECT_DIR$/ArrayList/Coda/Coda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Compiti-java-main.iml" filepath="$PROJECT_DIR$/Compiti-java-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/WindowDoubles/Esercizio.iml" filepath="$PROJECT_DIR$/gui/WindowDoubles/Esercizio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GasStation/GasStation.iml" filepath="$PROJECT_DIR$/GasStation/GasStation.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" filepath="$PROJECT_DIR$/gui/MediumInteface/GridInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/InitialeEx/InitialeEx.iml" filepath="$PROJECT_DIR$/ArrayList/InitialeEx/InitialeEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui/Sconto/Sconto.iml" filepath="$PROJECT_DIR$/gui/Sconto/Sconto.iml" />
